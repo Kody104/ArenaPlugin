@@ -1,0 +1,51 @@
+name: Arena
+main: com.gmail.jpk.stu.Arena.Arena
+version: 0.5.0
+author: Kody104
+
+commands:
+  ahelp:
+    description: Command that teaches about other commands.
+    usage: /ahelp
+    permission: Arena.ahelp
+    permission-message: You don't have permission.
+  enter:
+    description: Teleports player to the arena.
+    usage: /enter
+    permission: Arena.enter
+    permission-message: You don't have permission.
+  exit:
+    description: Teleports the player out of the arena.
+    usage: /exit
+    permission: Arena.exit
+    permission-message: You don't have permission.
+  ready:
+    description: Readies the player for the arena.
+    usage: /ready
+    permission: Arena.ready
+    permission-message: You don't have permission.
+  role:
+    description: Sets the player's role in the arena.
+    usage: /role <class>
+    permission: Arena.role
+    permission-message: You don't have permission.
+  force:
+    description: Forces the next round. ONLY USE WHEN NECESSARY
+    usage: /force
+    permission: Arena.force
+    permission-message: You don't have permission.
+  sidebar:
+    description: Sets the player's sidebar to something else.
+    usage: /sidebar <xp | score>
+    permission: Arena.sidebar
+    permission-message: You don't have permission.
+  vip:
+    description: Sets a player to the vip list.
+    usage: /vip <player> [0/1]
+    permission: Arena.vip
+    permission-message: You don't have permission.
+  forge:
+    description: VIP permission that allows player to refine their weapons or reforge them.
+    usage: /forge <refine | reforge> [stat]
+    permission: Arena.forge
+    permission-message: You don't have permission.
